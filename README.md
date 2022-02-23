@@ -27,13 +27,13 @@
 1. install Void Linux
 2. install git: `sudo xbps-install -S git`
 3. download this repo:
-```fish
-cd
-git init
-git remote add origin https://git.sr.ht/~lincot/dotfiles
-git fetch
-git checkout -f master
-```
+  ```fish
+  cd
+  git init
+  git remote add origin https://git.sr.ht/~lincot/dotfiles
+  git fetch
+  git checkout -f master
+  ```
 4. review, edit and run `install.sh`
 5. review and edit the config files
 6. [configure Firefox](ff_configuration.md)
