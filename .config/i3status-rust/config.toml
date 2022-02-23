@@ -1,0 +1,19 @@
+theme = "slick"
+icons = "awesome5"
+
+[[block]]
+block = "memory"
+format_mem = "{mem_used_percents}"
+format_swap = "{swap_used_percents}"
+
+[[block]]
+block = "cpu"
+
+[[block]]
+block = "load"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
