@@ -40,20 +40,20 @@ hostname-based tab colorization (can be made darker)
 ## ~/.mozilla/firefox/*-default/chrome/userChrome.css
 
 - to disable Firefox native tabs bar:
-```css
-#TabsToolbar {
-  display: none;
-}
-```
+    ```css
+    #TabsToolbar {
+      display: none;
+    }
+    ```
 - to disable sidebar header:
-```css
-#sidebar-header {
-  display: none;
-}
-```
+    ```css
+    #sidebar-header {
+      display: none;
+    }
+    ```
 - to disable mic/camera icon:
-```css
-#webrtcIndicator {
-  display: none;
-}
-```
+    ```css
+    #webrtcIndicator {
+      display: none;
+    }
+    ```
