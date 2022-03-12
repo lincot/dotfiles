@@ -1,4 +1,4 @@
-# my linux dotfiles
+# my dotfiles
 
 ![screenshot](screenshot.png)
 
