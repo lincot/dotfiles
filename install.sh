@@ -8,7 +8,7 @@ sudo xbps-install -S \
     sway mesa mesa-dri seatd pam_rundir \
     kitty \
     font-firacode font-fira-otf \
-    firefox \
+    firefox xdg-desktop-portal-wlr \
     pipewire alsa-pipewire pulseaudio-utils ffmpeg \
     imv mpv \
     fish-shell \
