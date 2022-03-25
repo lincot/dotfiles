@@ -78,11 +78,13 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym Print exec grim -g "$(slurp)" - | swappy -f -
 bindsym Shift+Print exec grim - | swappy -f -
 
+bindsym $mod+n exec makoctl dismiss
+
 bar {
     mode hide
     status_command i3status-rs
     position top
-    font pango:Fira Code, Font Awesome 5 Free
+    font Fira Code, Font Awesome 5 Free 14
     colors {
         background #32323200
         focused_workspace #f4a950 #f4a950 #161b21
@@ -115,6 +117,7 @@ exec_always {
 }
 
 exec {
+    dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
     pipewire
     pipewire-pulse
 }

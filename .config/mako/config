@@ -1,0 +1,14 @@
+font=Fira Sans 14
+text-color=#f4a950
+background-color=#161b21
+margin=0
+border-size=1
+
+[urgency=low]
+border-color=#cccccc
+
+[urgency=normal]
+border-color=#ed8712
+
+[urgency=high]
+border-color=#e53714

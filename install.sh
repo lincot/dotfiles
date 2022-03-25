@@ -6,9 +6,11 @@ mkdir ~/Downloads
 # packages installation
 sudo xbps-install -S \
     sway mesa mesa-dri seatd pam_rundir \
+    mako \
+    xdg-desktop-portal-wlr \
     kitty \
     font-firacode font-fira-otf \
-    firefox xdg-desktop-portal-wlr \
+    firefox \
     pipewire alsa-pipewire pulseaudio-utils ffmpeg \
     imv mpv \
     fish-shell \
