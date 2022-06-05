@@ -21,6 +21,7 @@
 - screenshotting: [grim](https://wayland.emersion.fr/grim/),
 [slurp](https://wayland.emersion.fr/slurp/) and
 [swappy](https://github.com/jtheoof/swappy)
+- password manager: [pass](https://www.passwordstore.org/)
 
 ## installation
 
@@ -32,7 +33,6 @@
     git init
     git remote add origin https://git.sr.ht/~lincot/dotfiles
     git fetch
-    git checkout -f master
     ```
 4. review, edit and run `install.sh`
 5. review and edit the config files

@@ -5,13 +5,14 @@
 ### General
 
 - Startup/✅ Open previous windows and tabs
-- Files and Applications/✅ Always ask you where to save files
-- Language and Appearance/
+- Tabs/✅ Ctrl+Tab cycles through tabs in recently used order
+- Language and Appearance/Fonts/Advanced...
   - Serif and Sans-Serif: Fira Sans
   - Monospace: Fira Code
   - size: 18 or so
   - (may break some sites) ❎
   Allow pages to choose their own fonts, instead of your selections above
+- Files and Applications/Downloads/✅ Always ask you where to save files
 
 ### Search
 
@@ -27,33 +28,18 @@
 
 - [uBlock Origin](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader)
-(or another dark mode addon): eyes saver
-- [Tridactyl](https://addons.mozilla.org/firefox/addon/tridactyl-vim)
-(or another shortcuts addon): clicking buttons w/o "mouse", etc.
-- [Video Speed Controller](https://addons.mozilla.org/firefox/addon/videospeed):
-watching videos faster
-- [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab):
-alternative tab management
-- [TST Colored Tabs](https://addons.mozilla.org/firefox/addon/tst-colored-tabs):
-hostname-based tab colorization (can be made darker)
+- [20-20-20 Rule](https://addons.mozilla.org/firefox/addon/20-20-20-rule)
+- [Video Speed Controller](https://addons.mozilla.org/firefox/addon/videospeed)
+- [Privacy Redirect](https://addons.mozilla.org/firefox/addon/privacy-redirect)
+
+## about:config
+
+- ✅ toolkit.legacyUserProfileCustomizations.stylesheets
 
 ## ~/.mozilla/firefox/*-default/chrome/userChrome.css
 
-- to disable Firefox native tabs bar:
-    ```css
-    #TabsToolbar {
-      display: none;
-    }
-    ```
-- to disable sidebar header:
-    ```css
-    #sidebar-header {
-      display: none;
-    }
-    ```
-- to disable mic/camera icon:
-    ```css
-    #webrtcIndicator {
-      display: none;
-    }
-    ```
+```css
+#webrtcIndicator {
+  display: none;
+}
+```

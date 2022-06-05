@@ -106,12 +106,13 @@ default_border none
 
 output * bg ~/.local/share/backgrounds/iceberg_sway_by_-lemniscat-_1366x768.png fill
 
-set $cursor Adwaita
-set $cursor_size 24
-seat seat0 xcursor_theme $cursor $cursor_size
+seat seat0 xcursor_theme Adwaita 24
 exec_always {
-    gsettings set org.gnome.desktop.interface cursor-theme $cursor
-    gsettings set org.gnome.desktop.interface cursor-size $cursor_size
+    gsettings set org.gnome.desktop.interface cursor-theme Adwaita
+    gsettings set org.gnome.desktop.interface cursor-size 24
+    gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+    gsettings set org.gnome.desktop.interface font-name "Fira Sans 12"
+    gsettings set org.gnome.desktop.interface monospace-font-name "Fira Code 12"
 }
 
 exec {

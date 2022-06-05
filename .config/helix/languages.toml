@@ -5,3 +5,4 @@ name = "rust"
 cargo = { loadOutDirsFromCheck = true }
 procMacro = { enable = false }
 diagnostics = { disabled = ["unresolved-proc-macro"] }
+# language-server = { command = "", args = [] }
