@@ -104,7 +104,7 @@ input type:touchpad {
 
 default_border none
 
-output * bg ~/.local/share/backgrounds/iceberg_sway_by_-lemniscat-_1366x768.png fill
+output * bg #000000 solid_color
 
 seat seat0 xcursor_theme Adwaita 24
 exec_always {
@@ -116,9 +116,9 @@ exec_always {
 }
 
 exec {
-    dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus
     pipewire
     pipewire-pulse
+    dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 }
 
 include /etc/sway/config.d/*

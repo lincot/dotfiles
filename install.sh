@@ -36,26 +36,6 @@ fi
 # fish as default shell
 chsh -s /bin/fish
 
-# not needed having binary package from xbps
-# # rust installation (for helix)
-# if ! type cargo > /dev/null; then
-#     sudo xbps-install rustup
-#     rustup-init
-#     fish_add_path ~/.cargo/bin
-#     . ~/.cargo/env
-# fi
-
-# # helix installation
-# cd ~/Downloads
-# git clone https://github.com/helix-editor/helix
-# cd helix
-# CARGO_PROFILE_RELEASE_LTO=true RUSTFLAGS="-C target-cpu=native" cargo install --path helix-term
-# hx --grammar fetch
-# hx --grammar build
-# ln -s ~/Downloads/helix/runtime ~/.config/helix/runtime
-
 # NTP (time syncing)
 sudo xbps-install openntpd
 sudo ln -s /etc/sv/ntpd /var/service/
-
-# sudo reboot

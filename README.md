@@ -37,6 +37,16 @@
 4. review, edit and run `install.sh`
 5. review and edit the config files
 6. [configure Firefox](ff_configuration.md)
+
+## typical workflow
+
+1. turn on your PC
+2. log in
+3. execute `XDG_CURRENT_DESKTOP=sway dbus-run-session sway`
+4. press `Super+Enter` to launch terminal
+5. launch firefox: `firefox-wayland &>/dev/null &disown`
+6. move it to second workspace with `Super+Shift+2`
+(so that there is only 1 fullscreen window per workspace)
 7. enjoy
 
 ## other software you may like
