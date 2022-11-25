@@ -2,7 +2,7 @@
 name = "rust"
 
 [language.config]
-cargo = { loadOutDirsFromCheck = true }
+cargo = { loadOutDirsFromCheck = true, allFeatures = true }
 procMacro = { enable = false }
 diagnostics = { disabled = ["unresolved-proc-macro"] }
 # language-server = { command = "", args = [] }

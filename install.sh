@@ -12,7 +12,7 @@ sudo xbps-install \
     sway mesa mesa-dri seatd pam_rundir \
     mako libnotify \
     xdg-desktop-portal-wlr \
-    kitty \
+    wezterm \
     helix \
     font-firacode font-fira-otf \
     firefox \

@@ -6,7 +6,7 @@
 
 - distro: [Void Linux](https://voidlinux.org)
 - WM: [sway](https://swaywm.org)
-- terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
+- terminal: [wezterm](https://wezfurlong.org/wezterm/)
 - text editor: [helix](https://helix-editor.com)
 - monospace font: [Fira Code](https://github.com/tonsky/FiraCode)
 - sans font: [Fira](http://mozilla.github.io/Fira/)

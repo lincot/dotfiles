@@ -1,5 +1,5 @@
 set $mod Mod4
-set $term kitty
+set $term wezterm
 
 bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
