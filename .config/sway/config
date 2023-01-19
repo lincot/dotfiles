@@ -82,7 +82,7 @@ bar {
     mode hide
     status_command i3status-rs
     position top
-    font Fira Code, Font Awesome 5 Free 14
+    font Fira Code, Font Awesome 5 Free 20
     colors {
         background #32323200
         focused_workspace #f4a950 #f4a950 #161b21

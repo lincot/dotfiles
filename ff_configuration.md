@@ -1,4 +1,4 @@
-# proposed basic usability-oriented Firefox configuration
+# basic usability-oriented Firefox configuration
 
 ## about:preferences
 
@@ -9,9 +9,8 @@
 - Language and Appearance/Fonts/Advanced...
   - Serif and Sans-Serif: Fira Sans
   - Monospace: Fira Code
-  - size: 18 or so
-  - (may break some sites) ❎
-  Allow pages to choose their own fonts, instead of your selections above
+  - ❎ Allow pages to choose their own fonts, instead of your selections above
+- Zoom/Default zoom/👁️ choose a comfortable level
 - Files and Applications/Downloads/✅ Always ask you where to save files
 
 ### Search

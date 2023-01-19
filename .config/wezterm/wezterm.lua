@@ -4,7 +4,9 @@ local keys = {
   {
     key = "t",
     mods = "CTRL|SHIFT",
-    action = wezterm.action.SpawnTab "CurrentPaneDomain",
+    action = wezterm.action.SpawnCommandInNewTab {
+      cwd = "~",
+    },
   },
   {
     key = "w",
@@ -24,7 +26,7 @@ end
 return {
   color_scheme = "Gruvbox dark, medium (base16)",
   font = wezterm.font "Fira Code",
-  font_size = 14,
+  font_size = 20,
   keys = keys,
   animation_fps = 1,
   cursor_blink_rate = 0,
