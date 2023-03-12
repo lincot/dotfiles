@@ -82,7 +82,7 @@ bar {
     mode hide
     status_command i3status-rs
     position top
-    font Fira Code, Font Awesome 5 Free 20
+    font Fira Code, Font Awesome 6 Free 20
     colors {
         background #32323200
         focused_workspace #f4a950 #f4a950 #161b21
@@ -113,12 +113,6 @@ exec_always {
     gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
     gsettings set org.gnome.desktop.interface font-name "Fira Sans 12"
     gsettings set org.gnome.desktop.interface monospace-font-name "Fira Code 12"
-}
-
-exec {
-    pipewire
-    pipewire-pulse
-    dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 }
 
 include /etc/sway/config.d/*

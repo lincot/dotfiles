@@ -1,10 +1,12 @@
+[theme]
 theme = "slick"
-icons = "awesome5"
+
+[icons]
+icons = "awesome6"
 
 [[block]]
 block = "memory"
-format_mem = "{mem_used_percents}"
-format_swap = "{swap_used_percents}"
+format = " $icon $mem_total_used_percents.eng(w:2) "
 
 [[block]]
 block = "cpu"
