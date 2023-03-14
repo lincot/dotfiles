@@ -2,7 +2,7 @@
 
 ## chrome://settings/security
 
-- ✅ Safe Browsing/No protection
+✅ Safe Browsing/No protection
 
 ## chrome://settings/content
 
@@ -16,19 +16,23 @@
 
 ## chrome://settings/fonts
 
-- set the standard, serif and sans-serif to Fira Sans, fixed-width to Fira Code
+set the standard, serif and sans-serif to Fira Sans, fixed-width to Fira Code
 
 ## chrome://settings/search
 
-- Search engine used in the address bar/🦆 DuckDuckGo
+Search engine used in the address bar/🦆 DuckDuckGo
 
 ## chrome://settings/onStartup
 
-- ✅ Continue where you left off
+✅ Continue where you left off
 
 ## chrome://settings/languages
 
-- ❎ Use Google Translate
+❎ Use Google Translate
+
+## chrome://settings/downloads
+
+✅ Ask where to save each file before downloading
 
 ## add extensions
 
