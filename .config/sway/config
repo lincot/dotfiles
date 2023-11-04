@@ -104,7 +104,7 @@ input type:touchpad {
 
 default_border none
 
-output * bg #000000 solid_color
+output * bg ~/.local/share/backgrounds/iceberg-sway-by-lemniscat.png fill
 
 seat seat0 xcursor_theme Adwaita 24
 exec_always {

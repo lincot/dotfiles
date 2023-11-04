@@ -5,6 +5,12 @@ theme = "slick"
 icons = "awesome6"
 
 [[block]]
+block = "battery"
+
+[[block]]
+block = "temperature"
+
+[[block]]
 block = "memory"
 format = " $icon $mem_total_used_percents.eng(w:2) "
 

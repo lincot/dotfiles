@@ -3,7 +3,7 @@
 mkdir -p ~/Pictures/Screenshots
 sudo ln -s /bin/helix /bin/hx
 sudo pacman -Sy --needed \
-    sway mesa \
+    sway swaybg mesa \
     mako libnotify \
     wezterm \
     helix \
