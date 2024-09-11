@@ -1,0 +1,6 @@
+[Unit]
+Description=20-20-20 rule notification
+
+[Service]
+Type=oneshot
+ExecStart=notify-send "look into the distance for 20 secs"

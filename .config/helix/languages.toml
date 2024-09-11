@@ -3,11 +3,19 @@ name = "rust"
 
 [language-server.rust-analyzer.config]
 cargo = { loadOutDirsFromCheck = true, allFeatures = true }
-procMacro = { enable = false }
-diagnostics = { disabled = ["unresolved-proc-macro"] }
+# procMacro = { enable = false }
+# diagnostics = { disabled = ["unresolved-proc-macro"] }
 # language-server = { command = "", args = [] }
 
 [[language]]
 name = "python"
 formatter = { command = "black", args = ["--quiet", "--line-length", "88", "-"] }
+auto-format = true
+
+[[language]]
+name = "cpp"
+auto-format = true
+
+[[language]]
+name = "c"
 auto-format = true

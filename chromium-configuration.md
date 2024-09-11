@@ -37,4 +37,5 @@ Search engine used in the address bar/🦆 DuckDuckGo
 ## add extensions
 
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+(not required in case of Brave)
 - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)

@@ -1,20 +1,23 @@
 #!/bin/sh
 
 mkdir -p ~/Pictures/Screenshots
-sudo ln -s /bin/helix /bin/hx
 sudo pacman -Sy --needed \
     sway swaybg mesa \
     mako libnotify \
     wezterm \
     helix \
     ttf-fira-code ttf-fira-sans ttf-font-awesome \
-    thorium-browser-bin \
+    brave-bin \
     pipewire pipewire-alsa \
     imv mpv \
-    fish \
+    fish eza ripgrep-all \
     i3status-rust \
     grim slurp swappy \
     wl-clipboard \
     gsettings-desktop-schemas gnome-themes-extra \
-    pass \
-    ripgrep-all
+    pass
+sudo ln -s /bin/helix /bin/hx
+systemctl enable --user 20-20-20.timer
+systemctl enable --user go-to-sleep.timer
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+echo "export QT_STYLE_OVERRIDE=adwaita-dark" >> ~/.profile

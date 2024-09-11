@@ -1,0 +1,10 @@
+[Unit]
+Description=20-20-20 rule timer
+
+[Timer]
+OnBootSec=20min
+OnUnitActiveSec=20min
+Unit=20-20-20.service
+
+[Install]
+WantedBy=timers.target

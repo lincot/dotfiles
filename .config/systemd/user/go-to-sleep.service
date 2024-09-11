@@ -1,0 +1,7 @@
+[Unit]
+Description=go-to-sleep notification
+
+[Service]
+Type=oneshot
+ExecStartPre=notify-send "GO TO SLEEP"
+ExecStart=shutdown
