@@ -18,6 +18,5 @@ sudo pacman -Sy --needed \
     pass
 sudo ln -s /bin/helix /bin/hx
 systemctl enable --user 20-20-20.timer
-systemctl enable --user go-to-sleep.timer
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 echo "export QT_STYLE_OVERRIDE=adwaita-dark" >> ~/.profile

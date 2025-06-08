@@ -2,14 +2,11 @@
 name = "rust"
 
 [language-server.rust-analyzer.config]
-cargo = { loadOutDirsFromCheck = true, allFeatures = true }
-# procMacro = { enable = false }
-# diagnostics = { disabled = ["unresolved-proc-macro"] }
-# language-server = { command = "", args = [] }
+cargo = { loadOutDirsFromCheck = true, allFeatures = false }
 
 [[language]]
 name = "python"
-formatter = { command = "black", args = ["--quiet", "--line-length", "88", "-"] }
+formatter = { command = "black", args = ["--quiet", "--line-length", "79", "-"] }
 auto-format = true
 
 [[language]]

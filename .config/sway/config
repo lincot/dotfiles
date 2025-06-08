@@ -115,11 +115,6 @@ exec_always {
     gsettings set org.gnome.desktop.interface monospace-font-name "Fira Code 12"
 }
 
-exec {
-    systemctl --user start 20-20-20.timer
-    systemctl --user start go-to-sleep.timer
-}
-
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 include /etc/sway/config.d/*
